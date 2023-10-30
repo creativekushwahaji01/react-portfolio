@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+:root{
+  font-size: 1vw;
   color: white;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
 
-.App-link {
-  color: #61dafb;
+  text-align: center;
+
+}
+body{
+  background-color: rgb(20, 21, 38);
+  color: rgb(39, 198, 221);
+  text-decoration: none;
+  padding: 0 1vw;
+}
+.main{
+  margin: 0px 10px;
+}
+.self_img{
+  height: auto;
+}
+.nav_img_logo{
+  height: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav_main{
+  display: flex;
+  justify-content: space-between;
+}
+.nav_main ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-inline-start: 0;
+  width: 40vw;
+  align-items: center;
+}
+
+.nav_main ul li{
+  margin: 0px 10px;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+.nav_main ul li a{
+  color: aqua;
+}
+.introtext{
+  display: block;
+  /* justify-content: ;s */
+  font-size: 5em;
+}
+.text2{
+  display: inline;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to top right, #6767ff, #e76060);
+}
+.text1{
+  display: inline;
+}
+.about{
+  display: flex;
+  justify-content: space-between;
+}
+.self_intro {
+  padding-top: 28px;
+  width: 52vw;
+}
+img.self_img {
+  filter: drop-shadow(0 0 0.2rem rgb(39, 198, 221));
+  width: 28em;
+}
+.nav_main > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) {
+  text-decoration: navajowhite;
+}
+.nav_main > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1) {
+  text-decoration: none;
+}
+.nav_main > ul:nth-child(2) > li:nth-child(3) > a:nth-child(1) {
+  text-decoration: none;
+}
+.nav_main > ul:nth-child(2) > li:nth-child(4) > a:nth-child(1) {
+  text-decoration: none;
+}
+/* styles.css */
+.progress-bar {
+  height: 30px;
+  background-color: #f0f0f0;
+  position: relative;
+  margin: 10px 0;
+}
+
+.progress-indicator {
+  height: 100%;
+  font-size: 1.5em;
+  background-image: linear-gradient(to right, red , yellow);
+}
+
+.progress-label {
+  line-height: 30px;
+  color: #333;
 }
