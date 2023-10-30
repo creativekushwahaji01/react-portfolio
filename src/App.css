@@ -89,14 +89,21 @@ img.self_img {
 }
 /* styles.css */
 .progress-bar {
-  height: 30px;
-  background-color: #f0f0f0;
-  position: relative;
+  display: flex;
+  align-items: center;
+  height: 5em;
+  width: 505px;
   margin: 10px 0;
 }
+.language-icon img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
 
 .progress-indicator {
-  height: 100%;
+  height: 22px;
   font-size: 1.5em;
   background-image: linear-gradient(to right, red , yellow);
 }
@@ -104,4 +111,23 @@ img.self_img {
 .progress-label {
   line-height: 30px;
   color: #333;
+}
+.progressdiv{
+  padding: 2em 5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  justify-items: center;
+}
+.lang_pro_bar{
+  text-align: center;
+  font-size: 3em;
+}
+.language-icon svg{
+  width: 5em;
+height: 5em;
+}
+.full_progress{
+  width: 505px;
+  display: flex;
+  background-color: #272b2b;
 }

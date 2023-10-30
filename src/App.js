@@ -11,19 +11,19 @@ function App() {
       <div className="about">
         <div className="self_intro">
           <div className="introtext">
-            <p className="text1">Im,</p>
+            <p className="text1">Im, </p>
             <p className="text2">Dilip</p>
           </div>
           <div className="introtext">
-            <p className="text1">Front-end</p>
+            <p className="text1">Front-end </p>
             <p className="text2">Developer</p>
           </div>
           <div className="introtext">
-            <p className="text1">designer,</p>
+            <p className="text1">designer, </p>
             <p className="text2">coder</p>
           </div>
           <div className="introtext">
-            <p className="text1">And</p>
+            <p className="text1">And </p>
             <p className="text2">Tech-Guru</p>
           </div>
         </div>
@@ -31,7 +31,7 @@ function App() {
           <img className="self_img" src={selfimg3} alt="Failed"></img>
         </div>
       </div>
-      <h1>Language Learning Progress</h1>
+      <h1 className="lang_pro_bar">Language Learning Progress</h1>
       <LanguageProgress />
     </div>
   )
