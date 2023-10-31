@@ -1,6 +1,8 @@
 function Skills(){
     return(
-        <div></div>
+        <div>
+            <h1>this is skill</h1>
+        </div>
     )
 }
 export default Skills;
