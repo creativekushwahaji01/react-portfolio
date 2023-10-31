@@ -16,7 +16,7 @@ function LanguageProgress() {
   ];
 
   return (
-    <div className='progressdiv'>
+    <div id='skills' className='progressdiv'>
       {languages.map((language, index) => (
         <div key={index} className="progress-bar">
           <div className="language-icon" dangerouslySetInnerHTML={{ __html: language.imageSvg }} />
