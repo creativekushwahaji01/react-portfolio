@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4fcc1e1d.css",
+    "main.js": "/react-portfolio/static/js/main.8067d037.js",
+    "static/media/solana1.jpg": "/react-portfolio/static/media/solana1.cf9d3bfcc9fa48a5873c.jpg",
+    "static/media/fastn2.jpg": "/react-portfolio/static/media/fastn2.b628b63274b8909b3a5c.jpg",
+    "static/media/nft day.JPG": "/react-portfolio/static/media/nft day.8d6eacbe1cd6bc870e68.JPG",
+    "static/media/webdev.jpg": "/react-portfolio/static/media/webdev.045a51314e2c56f2163d.jpg",
+    "static/media/robotec.jpg": "/react-portfolio/static/media/robotec.cfce81e17190541e0425.jpg",
+    "static/media/nodejs1.png": "/react-portfolio/static/media/nodejs1.c1cf99bffdd65e1a1e90.png",
+    "static/media/navodaya.jpg": "/react-portfolio/static/media/navodaya.795bb9a6f621665789b2.jpg",
+    "static/media/cafe.jpg": "/react-portfolio/static/media/cafe.4ac818a1807d61ff1803.jpg",
+    "static/media/rechhuntress.jpg": "/react-portfolio/static/media/rechhuntress.0b08a32b3c84cc5469a0.jpg",
+    "static/media/avtar2.png": "/react-portfolio/static/media/avtar2.ecc60b001e039e352e55.png",
+    "static/media/w3bpl1.jpg": "/react-portfolio/static/media/w3bpl1.0beaff8c43a74a57895b.jpg",
+    "static/media/bhopalfoss1.jpeg": "/react-portfolio/static/media/bhopalfoss1.bee2ba08bcf5d465fd2a.jpeg",
+    "static/media/web3bootcamp.jpg": "/react-portfolio/static/media/web3bootcamp.fb543bd8dd974f33bbbd.jpg",
+    "static/media/fastn3.jpg": "/react-portfolio/static/media/fastn3.7251eaadee567e72f166.jpg",
+    "static/media/webdeveloperimg.png": "/react-portfolio/static/media/webdeveloperimg.3bd06a7c8f061022bf26.png",
+    "static/media/techfest.jpg": "/react-portfolio/static/media/techfest.1e54e9742be3f957b4fe.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.4fcc1e1d.css.map": "/react-portfolio/static/css/main.4fcc1e1d.css.map",
+    "main.8067d037.js.map": "/react-portfolio/static/js/main.8067d037.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fcc1e1d.css",
+    "static/js/main.8067d037.js"
+  ]
+}
