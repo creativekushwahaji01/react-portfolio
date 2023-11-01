@@ -3,7 +3,7 @@ import "../modules/service.css"
 
 const Centre = () => {
   return (
-    <div className="centre" id="About">
+    <div className="center" id="Service">
       <h2 className="hed">The full product development stack</h2>
       <div className="centop">
         <p className="cen1 container reveal">

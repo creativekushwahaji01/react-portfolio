@@ -1,5 +1,6 @@
-.centre {
+.center {
     text-align: center;
+    margin-top: 3em;
 }
 
 .centop {
@@ -28,6 +29,7 @@
 }
 
 .ref2 {
+    padding-bottom: 20px;
     border-style: inset;
     border-radius: 30px;
     /* background-image: linear-gradient(to bottom right, rgb(164, 154, 154), rgb(31, 28, 28));
@@ -177,7 +179,7 @@
     vertical-align: middle;
     width: 60px;
     height: 60px;
-    background-color: rgb(56, 178, 172);
+    background-color: rgba(174, 133, 209, 0.2);
     border-style: solid;
     border-radius: 40px;
     text-align: center;

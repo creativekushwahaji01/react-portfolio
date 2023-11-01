@@ -38,6 +38,11 @@ body{
   display: flex;
   justify-content: space-between;
   padding: 0 3em;
+  border-bottom-color: aqua;
+  border: 2px solid gray;
+  margin-right: 65px;
+  margin-left: 65px;
+  border-radius: 20px;
 }
 .nav_main ul{
   display: flex;
@@ -74,6 +79,8 @@ body{
 .about{
   display: flex;
   justify-content: space-around;
+  margin-top: 20px;
+  padding-bottom: 50px;
 }
 .self_intro {
   padding-top: 28px;
@@ -357,4 +364,43 @@ img{
 .fa-github {
   border-color: rgb(140, 88, 196);
   border-style: outset;
+}
+.fa-telegram {
+  background-image: linear-gradient(to top right, #0596ff, #0de392);
+  border-color: #8fd8e4;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  border-style: outset;
+}
+
+.image-swap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s;
+  position: absolute;
+  z-index: 0;
+}
+
+.image.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+
+
+.biomain{
+  display: flex;
+  justify-content: center;
 }

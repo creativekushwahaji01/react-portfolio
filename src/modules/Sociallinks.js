@@ -12,6 +12,7 @@ function SocialIcons() {
         <a href="https://www.facebook.com/dilip.kushwaha.9693001/" style={{ fontSize: 'calc(12px + 1.5vw)' }} target="_blank" rel="noopener noreferrer" className="fa fa-facebook"> </a>
         <a href="mailto: kingkushwaha93@gmail.com" style={{ fontSize: 'calc(12px + 1.5vw)' }} target="_blank" rel="noopener noreferrer" className="fa fa-envelope"> </a>
         <a href="https://github.com/creativekushwahaji01" style={{ fontSize: 'calc(12px + 1.5vw)' }} target="_blank" rel="noopener noreferrer" className="fa fa-github"> </a>
+        <a href="https://t.me/creative_kushwahaji" style={{ fontSize: 'calc(12px + 1.5vw)' }} target="_blank" rel="noopener noreferrer" className="fa fa-telegram"> </a>
       </div>
     </div>
   );
