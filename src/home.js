@@ -6,6 +6,7 @@ import SocialIcons from "./modules/Sociallinks";
 // import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Centre from "./modules/Service";
 import Bio from "./modules/bio";
+import ScrollDown from "./modules/Scroldown";
 
 
 const home = () => {
@@ -13,11 +14,12 @@ const home = () => {
     <div>
       <div className="main">
         <About />
+        <ScrollDown/>
         < Centre/>
         <Bio/>
         <h1 className="lang_pro_bar">Language Learning Progress</h1>
         <LanguageProgress />
-        <SocialIcons/>
+        {/* <SocialIcons/> */}
        
       </div>
     </div>

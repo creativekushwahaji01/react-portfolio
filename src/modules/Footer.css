@@ -1,0 +1,17 @@
+.footer_cont img{
+    width: 100px;
+    height: 100px;
+}
+.footer_cont{
+    display: flex;
+    justify-content: space-around;
+}
+.footer_main{
+    background-color: #17171a;
+    padding: 2px 9em 2px 9em;
+    margin: 5px -15px 0px -15px;
+}
+.footer_cont p{
+    margin-top: 15px;
+    font-size: calc(7px + 0.5em);
+}
