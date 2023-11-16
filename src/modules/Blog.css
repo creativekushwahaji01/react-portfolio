@@ -77,6 +77,11 @@
     width: auto;
     height: 15rem;
   }
+  @media screen and (max-width:1000px ) {
+    img{
+      height: auto;
+    }
+  }
   .image{
     display: flex;
     align-content: center;
