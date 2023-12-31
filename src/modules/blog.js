@@ -47,7 +47,7 @@ function Blog(){
             title="Web development workshop"
             date="Sun, 10 Sept 2023"
             venue="MANIT Bhopal"
-            speakers=">SPEAKER'S -Arsh Goyal"
+            speakers="SPEAKER'S -Arsh Goyal"
             description="I had the privilege of participating in a two-day Web Development workshop at MANIT Bhopal, and it was truly a remarkable experience. The highlight of the workshop was the enlightening sessions conducted by Mr. Amit Goyal. Amit's expertise and teaching style were outstanding, making complex web development concepts accessible and eng Throughout the workshop, I delved deep into essential topics like HTML, CSS, JavaScript, and more, gaining valuable insights and hands-on experience. Amit's passion for web development and his dedication to imparting knowledge left a lasting impre These two days were transformative, significantly enhancing my web development skills and knowledge. I am immensely grateful to MANIT Bhopal for organizing this workshop and extend a special thank you to Amit Goyal for his exceptional guidance. 🚀💻"
           />
         </div>
