@@ -1,5 +1,5 @@
 import React from "react";
-import './Blog.css';
+import '../css/Blog.css';
 import BlogCard from "../modules/Blogcart"; // Make sure this import is correctly pointing to the BlogCard component
 import nft from "../blogimage/nft day.JPG";
 import techfest from '../blogimage/techfest.jpg';

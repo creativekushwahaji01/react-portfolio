@@ -1,5 +1,5 @@
 import React from 'react';
-import "../modules/service.css"
+import "../css/service.css"
 
 const Centre = () => {
   return (

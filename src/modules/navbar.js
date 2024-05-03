@@ -1,6 +1,6 @@
 import React from "react";
 import avtar2 from '../imgs/avtar2.png'
-import '../modules/navbar.css'
+import '../css/navbar.css'
 import { Link } from 'react-router-dom';
 
 function Navbar() {

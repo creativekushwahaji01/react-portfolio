@@ -4,7 +4,7 @@ import ImageSwap from "../modules/ImageAnimation";
 
 function Bio(){
     return(
-        <div className="biomain">
+        <div className="biomain ">
             <div className="bio_text">
                 <p className="bio_text_child t1">I am a second-year Computer Science Engineering student at IES College of Technology and Management, Bhopal. With a passion for technology and a strong foundation in computer science, I'm on a journey to explore the dynamic world of web development. As a fresher in web development, I'm eagerly seeking opportunities for internships and freelancing projects to further enhance my skills and gain valuable industry experience.</p>
 
@@ -20,4 +20,4 @@ function Bio(){
         </div>
     )
 }
-export default Bio;
+export default Bio; 

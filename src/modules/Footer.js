@@ -1,7 +1,7 @@
 import React from 'react'
 import SocialIcons from './Sociallinks'
 import avtar from '../imgs/thumb avtar.png';
-import './Footer.css';
+import '../css/Footer.css';
 
 const Footer = () => {
   return (
