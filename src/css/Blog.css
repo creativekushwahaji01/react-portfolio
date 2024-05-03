@@ -4,13 +4,14 @@
     --card-width: 350px;
   }
 .card {
+  
     background: #191c29;
     width: var(--card-width);
     height: var(--card-height);
     padding: 12px 8px;
     position: relative;
     border-radius: 6px;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     text-align: center;
     display: flex;
@@ -121,6 +122,8 @@
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: #16F529;
+    text-align: justify;
+  padding: 5px 2.5vw;
   }
   img{
     width: var(--card-width);
@@ -131,5 +134,14 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-  
-  
+ 
+  @media  screen and (min-width:750px) {
+  .card{
+    display: flex;
+    width: 80vw;
+    height: auto;
+  }
+  }
+  img{
+    max-height: 400px;
+  }
