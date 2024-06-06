@@ -8,9 +8,7 @@ const Footer = () => {
     <div className='footer_main'>
         <div className='footer_cont'>
             <img className='footer_img' src={avtar} alt='hii' />
-            <p>It's great to hear that you're eager to learn and open to feedback on your website and content. While I can certainly provide assistance and guidance, please note that I don't have the ability to access external websites or platforms to view your content directly. 
-
-If you have specific questions or encounter issues with your website, you can describe the problem or provide code snippets, and I'll do my best to help you troubleshoot and find solutions. Feel free to ask questions or seek advice on any web development or content-related topics, and I'll be here to assist you.</p>
+            <p>Thank you for taking the time to explore my portfolio. Your interest in my work means a lot to me! If you need any technical assistance, guidance on a project, or if you have a job opportunity that you think would be a great fit for my skills, please don’t hesitate to reach out. I’m always excited to connect with new people and take on new challenges. Let's work together to create something amazing!</p>
         </div>
         <h2>We are just one click away</h2>
         <SocialIcons/>

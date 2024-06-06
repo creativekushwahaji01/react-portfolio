@@ -14,6 +14,7 @@ function Navbar() {
                     <li><Link to="/">Home</Link></li>
                     <li><a href="#Service">Service</a></li>
                     <li><Link to="/Blog">Blog</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
             <div className="mobile" >
