@@ -3,7 +3,10 @@
     /* --card-width: calc(var(--card-height) / 1.5); */
     --card-width: 350px;
   }
-.card {
+  .blogmain{
+  padding-top: 65px;
+  }
+  .card {
   
     background: #191c29;
     width: var(--card-width);

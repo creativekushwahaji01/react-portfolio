@@ -39,41 +39,26 @@
     width: auto;
 }
 
-.fe:hover {
+/* .fe:hover {
     font-family: 'Alfa Slab One', cursive;
     font-family: 'Courgette', cursive;
-    /* text-shadow: 1px 1px #ebe88b; */
-}
+} */
 
 .fe1:hover {
     background-color: rgb(11, 114, 112);
 }
 
-.be:hover {
-    font-family: 'Alfa Slab One', cursive;
-    font-family: 'Courgette', cursive;
-    /* text-shadow: 1px 1px #ebe88b; */
-}
+
 
 .be1:hover {
     background-color: rgb(235, 55, 15);
 }
 
-.ui:hover {
-    font-family: 'Alfa Slab One', cursive;
-    font-family: 'Courgette', cursive;
-    /* text-shadow: 1px 1px #ebe88b; */
-}
 
 .ui1:hover {
     background-color: rgb(8, 103, 98);
 }
 
-.ux:hover {
-    font-family: 'Alfa Slab One', cursive;
-    font-family: 'Courgette', cursive;
-    /* text-shadow: 1px 1px #ebe88b; */
-}
 
 .ux1:hover {
     background-color: rgb(96, 40, 208);
@@ -260,4 +245,8 @@ svg{
     .footer_cont p {
         font-size: 8px;
         }
+}
+
+.serv1:hover{
+    animation:transform 0.3s ease ;
 }

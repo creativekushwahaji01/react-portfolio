@@ -1,0 +1,53 @@
+.self_img{
+    height: auto;
+    width: calc(80px + 2vw);
+    margin-top: 1.5em;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(0 0 0.2rem rgb(39, 198, 221));
+    width: 22em;
+  }
+
+.self_img:hover{
+ transform: scale(1.1);
+}
+
+  .introtext{
+    display: block;
+    font-size: 5em;
+  }
+  .text2{
+    display: inline;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(to top right, #6767ff, #e76060);
+  }
+  .text1{
+    display: inline;
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    padding-bottom: 4em;
+    height: 100vh;
+    min-height: 600px;
+    gap: calc(20px + 4vw);
+  }
+  .self_intro {
+    padding-top: 1em;
+    width: 52vw;
+  }
+  
+  .intro_bio{
+    font-size: 1.5em;
+    color: white;
+    padding: 0.5em 0;
+  }
+  @media screen and (max-width:500px){
+    .about{
+        max-height: 150px;
+    }
+    
+  }

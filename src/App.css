@@ -21,45 +21,7 @@ body{
 .main{
   margin: 0px 10px;
 }
-.self_img{
-  height: auto;
-  margin-top: 1.5em;
-}
 
-.introtext{
-  display: block;
-  /* justify-content: ;s */
-  font-size: 5em;
-}
-.text2{
-  display: inline;
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  background-image: linear-gradient(to top right, #6767ff, #e76060);
-}
-.text1{
-  display: inline;
-}
-.about{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  padding-bottom: 4empx;
-}
-.self_intro {
-  padding-top: 1em;
-  width: 52vw;
-}
-img.self_img {
-  filter: drop-shadow(0 0 0.2rem rgb(39, 198, 221));
-  width: 20em;
-}
-.intro_bio{
-  font-size: 1.5em;
-  color: white;
-  padding: 0.5em 0;
-}
 .nav_main > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1) {
   text-decoration: navajowhite;
 }
