@@ -1,5 +1,6 @@
 import React from 'react';
-import '../App.css';
+import '../css/Socialicon.css';
+
 
 function SocialIcons() {
   return (

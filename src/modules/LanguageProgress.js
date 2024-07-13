@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
-import '../App.css';
+import React, { useEffect, useState, useRef } from 'react';
+import '../css/Language.css';
+
 import html from '../imgs/html-5.svg';
 import css from '../imgs/css3.svg';
 import JavaScript from '../imgs/javascript.svg';
@@ -18,8 +19,8 @@ import Bootstrap from '../imgs/bootstrap-5-1.svg';
 import Reactb from '../imgs/react-bootstrap.svg';
 
 function LanguageProgress() {
-  const maxHeight = 800;
   const [showAll, setShowAll] = useState(false);
+  const progressBarRefs = useRef([]);
 
   const languages = [
     { name: 'HTML', progress: 95, imageSrc: html },
@@ -40,16 +41,60 @@ function LanguageProgress() {
     { name: 'React-Bootstrap', progress: 70, imageSrc: Reactb },
   ];
 
-  const visibleLanguages = showAll ? languages : languages.slice(0, 6); // Change 5 to your desired initial visible count
+  const visibleLanguages = showAll ? languages : languages.slice(0, 6);
 
   const toggleShowAll = () => {
     setShowAll(!showAll);
   };
 
+  useEffect(() => {
+    const options = {
+      threshold: 0.1,
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('slide-in');
+          entry.target.classList.remove('slide-out');
+        } else {
+          entry.target.classList.add('slide-out');
+          entry.target.classList.remove('slide-in');
+        }
+      });
+    }, options);
+
+    progressBarRefs.current.forEach((ref) => {
+      if (ref) {
+        observer.observe(ref);
+      }
+    });
+
+    return () => {
+      progressBarRefs.current.forEach((ref) => {
+        if (ref) {
+          observer.unobserve(ref);
+        }
+      });
+    };
+  }, [showAll]);
+
   return (
-    <div id="skills" className="progressdiv" style={{ maxHeight: `${maxHeight}px`, overflowY: 'auto' }}>
+    <>
+    <div className="mobile">
+      {languages.map((language,index) =>(
+        <div key={index} className="mobile-progress-bar">
+          <img src={language.imageSrc} alt={`${language.name} logo`} className="language-icon" />
+        </div>
+      ))}
+    </div>
+    <div id="skills" className="progressdiv desktop" style={{ height: showAll ? 'auto' : '500px' }}>
       {visibleLanguages.map((language, index) => (
-        <div key={index} className="progress-bar">
+        <div
+          key={index} 
+          className="progress-bar"
+          ref={(el) => (progressBarRefs.current[index] = el)}
+        >
           <img src={language.imageSrc} alt={`${language.name} logo`} className="language-icon" />
           <div className="full_progress">
             <div className="progress-indicator" style={{ width: `${language.progress}%` }}></div>
@@ -63,6 +108,7 @@ function LanguageProgress() {
         </button>
       )}
     </div>
+    </>
   );
 }
 

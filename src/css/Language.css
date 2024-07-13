@@ -1,0 +1,123 @@
+.progress-bar {
+    display: flex;
+    align-items: center;
+    height: 5em;
+    width: 505px;
+    margin: 10px 0;
+  }
+  .language-icon img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .language-icon{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .progress-indicator {
+    height: 22px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, red , yellow);
+  }
+  
+  .progress-label {
+    line-height: 30px;
+    color: #333;
+  }
+  .progressdiv{
+    padding: 2em 5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-items: center;
+    overflow-y: hidden;
+  }
+  .lang_pro_bar{
+    text-align: center;
+    font-size: 3em;
+    color: transparent;
+  background: linear-gradient(150deg, #FFF8F7 0%, #00588c 50%, #53F7FF 75%);
+  background-clip: text;
+  }
+  .language-icon svg{
+    width: 5em;
+  height: 5em;
+  }
+  .see-more-button {
+    display: flex;
+    justify-self: flex-end;
+    margin-left: 0px;
+    margin-right: -27px;
+    color: aqua;
+    background-color: #434b4863;
+    border: none;
+    height: 2rem;
+    padding: 4px 10px;
+    font-size: 1.1rem;
+    border-radius: 50%;
+  }
+  
+  
+  .full_progress{
+    width: 505px;
+    display: flex;
+    border-radius: 20px;
+    background-color: #272b2b;
+    margin: 0 5px;
+  }
+  .language-label{
+    text-align: center;
+    padding-top: 2px;
+  }
+  
+  /* Define the animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+/* Initial state before the animation */
+
+/* Class to trigger the slide-in animation */
+.slide-in {
+  animation: slideInRight 0.8s forwards;
+}
+
+/* Class to trigger the slide-out animation */
+.slide-out {
+  animation: slideOutRight 0.8s forwards;
+}
+.mobile{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+@media screen and (max-width:700px) {
+  .desktop{
+      display: none;
+  }
+  .language-icon{
+    height: 40px;
+  }
+  }

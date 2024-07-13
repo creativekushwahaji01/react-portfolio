@@ -1,8 +1,4 @@
-.nav_img_logo {
-    height: 50px;
-    width: 102px;
 
-}
 
 .nav_main {
     display: flex;
@@ -39,8 +35,9 @@
 }
 
 .nav_img_logo {
-    width: 6em;
-    height: 4em;
+    width: auto;
+    height: 100%;
+    max-width: 100px;
 }
 
 .nav_main ul li a {
@@ -65,6 +62,9 @@
 @media screen and (max-width:700px) {
     .desktop{
         display: none;
+    }
+    .nav_main{
+        height: 35px;
     }
     .mobile ul{
         display: flex;

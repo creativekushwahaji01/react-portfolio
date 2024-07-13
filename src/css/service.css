@@ -16,7 +16,7 @@
 }
 
 .cen1 {
-    font-size: calc(17px + 0.5vw);
+    font-size: 2.5em;
     color: rgb(4, 170, 170);
 }
 
@@ -214,22 +214,18 @@
     .fe {
         margin-top: 4vw;
         width: 200px;
-        margin: auto;
     }
     .be {
         margin-top: 4vw;
         width: 200px;
-        margin: auto;
     }
     .ui {
         margin-top: 4vw;
         width: 200px;
-        margin: auto;
     }
     .ux {
         margin-top: 4vw;
         width: 200px;
-        margin: auto;
     }
 }
 svg{
@@ -247,7 +243,10 @@ svg{
         }
 }
 
-.serv1:hover{
-    animation:transform 0.3s ease ;
+.serv1{
+    transition: transform 0.3s ease;
 }
-@trs
+.serv1:hover{
+    transform: scale(1.1) ;
+    
+}

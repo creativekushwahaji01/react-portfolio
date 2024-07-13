@@ -10,6 +10,7 @@
     background-color: #17171a;
     padding: 2px 9em 2px 9em;
     margin: 5px -15px 0px -15px;
+    text-wrap: wrap;
 }
 .footer_cont p{
     margin-top: 15px;
