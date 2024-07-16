@@ -32,6 +32,7 @@
     grid-template-columns: repeat(2, 1fr); 
     justify-items: center;
     overflow-y: hidden;
+    gap: 20px;
   }
   .lang_pro_bar{
     text-align: center;

@@ -16,6 +16,7 @@ function SocialIcons() {
         <a href="https://t.me/creative_kushwahaji" style={{ fontSize: 'calc(12px + 1.5vw)' }} target="_blank" rel="noopener noreferrer" className="fa fa-telegram"> </a>
       </div>
     </div>
+    
   );
 }
 

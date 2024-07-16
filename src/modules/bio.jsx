@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css';
-import ImageSwap from "../modules/ImageAnimation";
+import ImageSwap from "./ImageAnimation";
 
 function Bio(){
     return(

@@ -85,7 +85,7 @@ function LanguageProgress() {
       {languages.map((language,index) =>(
         <div key={index} className="mobile-progress-bar">
           <img src={language.imageSrc} alt={`${language.name} logo`} className="language-icon" />
-        </div>
+        </div> 
       ))}
     </div>
     <div id="skills" className="progressdiv desktop" style={{ height: showAll ? 'auto' : '500px' }}>
