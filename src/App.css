@@ -203,3 +203,8 @@ body{
     font-size: 35px;
   }
 }
+.icons{
+  height: 100px;
+  width: auto;
+  color: #4362de;
+}

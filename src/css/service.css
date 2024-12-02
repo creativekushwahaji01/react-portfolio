@@ -228,9 +228,19 @@
         width: 200px;
     }
 }
-svg{
+.fe1 svg{
     width: 25.390625vw;
 }
+.be1 svg{
+    width: 25.390625vw;
+}
+.ux1 svg{
+    width: 25.390625vw;
+}
+.ui1 svg{
+    width: 25.390625vw;
+}
+
 @media screen and (max-width: 700px){
     .ref2 p{
         font-size: 12px;

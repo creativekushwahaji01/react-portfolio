@@ -1,7 +1,7 @@
 #contact-form{
    background:url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260) no-repeat;
    background-size: cover;
-   height:70vh;
+   height:100vh;
    min-height: 400px;
    width: 100vw;
    background-color: #000;
@@ -131,6 +131,6 @@ input:required, textarea:required {
 @media screen and (max-width:550px) {
     h1{
         font-size: 20px;
-  color: #91ffff;
+  color: #005151;
     }
 }
