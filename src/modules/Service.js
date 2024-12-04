@@ -9,8 +9,8 @@ const Centre = () => {
         <p className="cen1 container reveal">
           From designing the interface to implementing your fully featured application - I can provide the full product design process from an idea to a finished high-quality app, polished with fantastic design and running on state-of-the-art software.
         </p>
-        <div className="container reveal">
-          <div className="ref2">
+        <div className="container reveal ">
+          <div className="ref2 shiny-cta">
             <div className="fe serv1 ">
               <div className="fe1">
                 <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
